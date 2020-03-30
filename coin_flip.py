@@ -9,9 +9,9 @@ def flip(num):
     for x in range(num):
         result = random.randint(0, 1)
         if result == 0:
-            heads = heads + 1
+            heads += 1
         else:
-            tails = tails + 1
+            tails += 1
 
     print(f"heads count {heads}")
     print("tails count " + str(tails))
