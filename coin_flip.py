@@ -14,7 +14,7 @@ def flip(num):
             tails = tails + 1
 
     print(f"heads count {heads}")
-    print("heads count " + str(tails))
+    print("tails count " + str(tails))
 
 
 while True:
