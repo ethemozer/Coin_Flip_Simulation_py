@@ -19,8 +19,7 @@ def flip(num):
 
 while True:
     try:
-        user_input = int(input("Please enter a number: "))
-        flip(user_input)
+        flip(int(input("Please enter a number: ")))
     except:
         print("Invalid number")
     else:
